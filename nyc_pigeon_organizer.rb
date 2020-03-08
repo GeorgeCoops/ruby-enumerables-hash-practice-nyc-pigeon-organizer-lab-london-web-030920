@@ -22,7 +22,7 @@ final_hash = {}
 
 data.each do |colour_gender_lives, pigeon_category|
   pigeon_category.each do |pigeon_attribute, array|
-    array.each do |pigean_name|
+    array.each do |pigeon_name|
     final_hash[pigeon_name] = {:color => [], :gender => [], :lives => []}
     end
   end
