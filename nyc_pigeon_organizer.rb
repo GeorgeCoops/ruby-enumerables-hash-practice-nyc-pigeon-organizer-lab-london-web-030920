@@ -34,7 +34,7 @@ data[colour].each do |pigeon_color, array|
   array.each do |pigeon_name|
     final_keys.each do |key|
       if key === pigeon_name
-        
+        final_hash[item][:color] << pigeon_color.to_s
       end
   end
 end
