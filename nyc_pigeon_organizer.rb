@@ -44,7 +44,7 @@ data[:gender].each do |pigeon_gender, array|
  array.each do |pigeon_name|
    keys.each do |key|
      if pigeon_name === key
-       organized_hash[key][:color] << pigeon_color.to_s
+       organized_hash[key][:gender] << pigeon_color.to_s
      end
    end
  end
