@@ -18,7 +18,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-final_hash = {}
+final = {}
 
 
 data.each do |first_level, all_other|
@@ -30,5 +30,5 @@ data.each do |first_level, all_other|
 end
 
 
-final_hash
+final
 end
