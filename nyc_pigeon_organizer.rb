@@ -38,6 +38,7 @@ data[colour].each do |pigeon_color, array|
       end
   end
 end
+end
 
 
 final_hash
