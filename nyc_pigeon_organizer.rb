@@ -32,7 +32,7 @@ final_keys = final_hash.keys
 
 data[colour].each do |pigeon_color, array|
   array.each do |pigeon_name|
-    final_keys.each do |key| 
+    final_keys.each do |key|
       if key === pigeon_name
         
       end
