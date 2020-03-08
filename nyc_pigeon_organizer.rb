@@ -40,5 +40,15 @@ data[:color].each do |pigeon_color, array|
  end
 end
 
+data[:gender].each do |pigeon_gender, array|
+ array.each do |pigeon_name|
+   keys.each do |key|
+     if pigeon_name === key
+       organized_hash[key][:color] << pigeon_color.to_s
+     end
+   end
+ end
+end
+
 organized_hash
 end
