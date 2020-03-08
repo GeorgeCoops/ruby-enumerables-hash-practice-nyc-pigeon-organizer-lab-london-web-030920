@@ -28,11 +28,11 @@ data.each do |colour_gender_lives, pigeon_category|
   end
 end
 
-x = organized_hash.keys
+keys = organized_hash.keys
 
 data[:color].each do |bird_color, name|
  name.each do |bird_name|
-   x.each do |item|
+   keys.each do |item|
      if bird_name === item
        organized_hash[item][:color] << bird_color.to_s
      end
