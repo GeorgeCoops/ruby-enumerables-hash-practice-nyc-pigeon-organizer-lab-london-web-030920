@@ -40,5 +40,5 @@ data[:color].each do |bird_color, name|
  end
 end
 
-final
+organized_hash
 end
