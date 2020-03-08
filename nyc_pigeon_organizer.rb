@@ -22,7 +22,7 @@ organized_hash = {}
 
 data.each do |colour_gender_lives, pigeon_category|
   pigeon_category.each do |category, array|
-    array.each do |name|
+    array.each do |pigeon_name|
      organized_hash[name] = {:color => [], :gender => [], :lives => []}
    end
   end
