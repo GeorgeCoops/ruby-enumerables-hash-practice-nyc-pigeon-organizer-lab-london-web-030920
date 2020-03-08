@@ -30,7 +30,7 @@ end
 
 keys = organized_hash.keys
 
-data[:color].each do |pigeon_color, name|
+data[:color].each do |pigeon_color, pigeon_name|
  name.each do |bird_name|
    keys.each do |item|
      if bird_name === item
