@@ -28,7 +28,7 @@ data.each do |colour_gender_lives, pigeon_category|
   end
 end
 
-x = final_hash.keys 
+x = final_hash.keys
 
 data[colour].each do |pigeon_color, array|
   array.each do |pigeon_name|
