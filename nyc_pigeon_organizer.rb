@@ -30,15 +30,16 @@ end
 
 final_keys = final_hash.keys
 
-data[:colour].each do |pigeon_color, array|
-  array.each do |pigeon_name|
-    final_keys.each do |key|
-      if key === pigeon_name
-        final_hash[item][:color] << pigeon_color.to_str
-      end
-  end
-  end
-end
+final_keys = final.keys
+data[:color].each do |bird_color, name|
+  name.each do |bird_name|
+    x.each do |item|
+      if bird_name === item
+        final[item][:color] << bird_color.to_s
+      end 
+    end 
+  end 
+end 
 
 
 final_hash
