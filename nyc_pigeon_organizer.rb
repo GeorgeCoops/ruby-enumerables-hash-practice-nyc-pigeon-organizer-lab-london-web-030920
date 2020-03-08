@@ -28,13 +28,6 @@ data.each do |colour_gender_lives, pigeon_category|
   end
 end
 
-data.each do |colour_gender_lives, pigeon_attribute|
-  pigeon_attribute.each do |category, array|
-    array.each do |name|
-      final[name] = {:color => [], :gender => [], :lives => []}
-    end
-  end
-end
 
 
 final_hash
