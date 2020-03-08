@@ -28,9 +28,9 @@ data.each do |colour_gender_lives, pigeon_category|
   end
 end
 
-final_keys = final_hash.keys
 
-final_keys = final.keys
+
+x = final.keys
 data[:color].each do |bird_color, name|
   name.each do |bird_name|
     x.each do |item|
