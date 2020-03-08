@@ -30,7 +30,7 @@ end
 
 
 
-x = final.keys
+x = final_hash.keys
 data[:color].each do |bird_color, name|
   name.each do |bird_name|
     x.each do |item|
