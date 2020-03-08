@@ -18,17 +18,24 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-final = {}
+final_hash = {}
 
-
-data.each do |first_level, all_other|
-  all_other.each do |category, array|
-    array.each do |name|
-      final[name] = {:color => [], :gender => [], :lives => []}
+data.each do |colour_gender_lives, pigeon_category|
+  pigeon_category.each do |pigeon_attribute, array|
+    array.each do |pigean_name|
+    final_hash[pigeon_name] = {:color => [], :gender => [], :lives => []}
     end
   end
 end
 
+data.each do |colour_gender_lives, pigeon_attribute|
+  pigeon_attribute.each do |category, array|
+    array.each do |name|
+      final[name] = {:color => [], :gender => [], :lives => []}
+    end 
+  end 
+end 
 
-final
+
+final_hash
 end
