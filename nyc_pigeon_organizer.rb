@@ -30,11 +30,11 @@ end
 
 keys = organized_hash.keys
 
-data[:color].each do |pigeon_color, pigeon_name|
- pigeon_name.each do |bird_name|
-   keys.each do |item|
-     if bird_name === item
-       organized_hash[item][:color] << bird_color.to_s
+data[:color].each do |pigeon_color, array|
+ array.each do |pigeon_name|
+   keys.each do |key|
+     if pigeon_name === key
+       organized_hash[key][:color] << pigeon_color.to_s
      end
    end
  end
