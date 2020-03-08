@@ -33,7 +33,7 @@ keys = final_hash.keys
 data[:colour].each do |pigeon_color, array|
   array.each do |pigeon_name|
     keys.each do |key|
-      if key === pigeon_name
+      if pigeon_name === pigeon_name
         final_hash[key][:color] << pigeon_color.to_str
       end
     end
